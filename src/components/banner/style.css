@@ -1,0 +1,25 @@
+.banner {
+  background: #faf3c0;
+  border-bottom: 1px solid #e6c60d;
+  padding: 6px;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.banner-text {
+  margin-right: 8px;
+}
+
+.free-signup-btn {
+  background-color: #055a8c;
+  border: none;
+  box-shadow: none;
+  color: #fff;
+  outline: 0;
+  padding: 6.7px 12px;
+  border-radius: 3px;
+}
+
+.free-signup-btn:hover {
+  background-color: #026aa7;
+}

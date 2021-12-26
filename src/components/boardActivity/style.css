@@ -1,0 +1,115 @@
+.side-menu-container {
+  z-index: 5;
+  position: absolute;
+  right: 0;
+  height: calc(100vh - 85px);
+  box-shadow: 0 12px 24px -6px #091e4240, 0 0 0 1px #091e4214;
+  background-color: #f4f5f7;
+  width: 340px;
+  top: 85px;
+}
+
+.side-menu-title {
+  line-height: 20px;
+  padding: 14px 32px;
+  overflow: hidden;
+  text-align: center;
+  text-overflow: ellipsis;
+  transition: padding .12s ease-in;
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 600;
+  border-bottom: 1px solid #091e4221;
+}
+
+.close-menu-icon {
+  font-size: 20px;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+
+.close-menu-icon:hover {
+  cursor: pointer;
+}
+
+.side-menu-content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 12px 6px 12px 12px;
+  height: calc(100% - 49px);
+  text-align: left;
+}
+
+.board-info {
+  border-bottom: 1px solid #091e4221;
+  padding-bottom: 6px;
+}
+
+.info-links {
+  border-radius: 3px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 7px;
+}
+
+.info-links:hover {
+  cursor: pointer;
+  background-color: #091e4214;
+}
+
+.board-activity-container {
+  margin-top: 6px;
+}
+
+.activity-card {
+  margin: 8px 0 20px 0;
+}
+
+.activity-title {
+  font-weight: 700;
+}
+
+.activity-user-icon {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #dfe1e6;
+  border-radius: 50%;
+  vertical-align: top;
+}
+
+.activity-info {
+  display: inline-block;
+  width: calc(100% - 32px);
+  box-sizing: border-box;
+  padding-left: 10px;
+}
+
+.activity-text {
+  margin-bottom: 5px;
+  word-wrap: break-word;
+}
+
+.activity-text .username {
+  font-weight: 700;
+}
+
+.activity-text .card-title {
+  text-decoration: underline;
+}
+
+.activity-text .card-title:hover {
+  cursor: pointer;
+}
+
+.activity-timestamp {
+  font-size: 12px;
+  color: #5e6c84;
+}

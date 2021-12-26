@@ -1,0 +1,92 @@
+.app-header {
+  background-color: #0067a3;
+  height: 40px;
+  padding: 4px 4px 0 4px;
+  box-sizing: border-box;
+}
+
+.app-links {
+  float: left;
+}
+
+.app-links a {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  height: 15px;
+  line-height: 15px;
+  margin: 0 4px 5px 0;
+  padding: 8px;
+  text-decoration: none;
+}
+
+.app-links a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  outline: 0;
+  border-radius: 3px;
+}
+
+.home-link {
+  height: 30px;
+  display: inline-block;
+}
+
+.trello-img::before, .trello-img::after {
+  background-image: url(https://a.trellocdn.com/prgb/dist/images/header-logo-spirit.d947df93bc055849898e.gif);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.trello-img::after {
+  background-image: url(https://a.trellocdn.com/prgb/dist/images/header-logo-spirit-loading.87e1af770a49ce8e84e3.gif);
+  opacity: 0;
+}
+
+.user-action-btns {
+  float: right;
+  margin-bottom: 4px;
+  height: 32px;
+}
+
+.user-action-btns .btn {
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 3px;
+  border: 0;
+  height: 100%;
+  padding: 0 12px;
+}
+
+.btn:first-child {
+  margin-right: 4px;
+  background-color: transparent;
+}
+
+.signin-btn {
+  background: linear-gradient(to bottom, #61BD4F 0%, #5AAC44 100%);
+}
+
+.signin-btn:hover {
+  background: linear-gradient(to bottom, #5AAC44 0%, #519839 100%);
+}
+
+.login-btn {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2));
+}
+
+.login-btn:hover {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+}
+
+@media only screen and (max-width: 340px) {
+  .app-links {
+    display: none;
+  } 
+}

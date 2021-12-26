@@ -1,0 +1,130 @@
+.board-container {
+  background-color: #0079bf;
+  height: calc(100vh - 85px);
+}
+
+/** Board Header - Start **/
+
+.board-header {
+  padding: 8px 4px 4px 8px;
+  color: #ffffff;
+  box-sizing: border-box;
+  display: flow-root;
+
+}
+
+.board-header-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  padding: 0 12px;
+  display: inline-block;
+}
+
+.divider {
+  border-left: 1px solid #ffffff3d;
+  height: 16px;
+  margin: 8px 8px 12px 4px;
+}
+
+.board-header-btn {
+  background-color: #ffffff3d;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  line-height: 32px;
+  margin: 0 4px 4px 0;
+  max-width: 400px;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  padding: 7px 18px;
+}
+
+.board-header-btn .btn-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.user-member-title {
+  height: 28px;
+  line-height: 28px;
+  width: 28px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #dfe1e6;
+  border-radius: 50%;
+  color: #172b4d;
+  cursor: pointer;
+  text-align: center;
+}
+
+.user-member {
+  display: inline-block;
+}
+
+.user-member-title:hover {
+  background-color: #c1c7d0;
+}
+
+.btn {
+  background-color: #4da1d2;
+  color: #ffffff;
+  border-radius: 3px;
+  line-height: 20px;
+  padding: 6px 12px;
+}
+
+.filter-btn {
+  margin-right: 4px;
+}
+
+.filter-btn svg {
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  position: relative;
+  top: 3px;
+  margin-right: 8px;
+}
+
+.sidebar-icon {
+  color: #ffffff;
+  margin-right: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  bottom: 4px;
+}
+
+/** Board Header - End **/
+
+.panels-section {
+  height: calc(100vh - 135px);
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: left;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .right-block-header {
+    float: left;
+    margin-top: 10px;
+  } 
+}
+
+@media only screen and (max-width: 580px) {
+  .left-block-header {
+    text-align: left;
+  } 
+}
+
+@media only screen and (max-width: 485px) {
+  .add-card-header-btn {
+    margin-top: 5px;
+  } 
+}
